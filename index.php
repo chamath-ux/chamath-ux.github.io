@@ -13,6 +13,7 @@
            <div class="col-md-2 bg-dark">sdasda</div>
            <div class="col-md-10 overflow-auto">
             <div  style="background-image: url('/assets/images/wooden.jpg');" class="row h-100">
+                <h1>asdasdasd</h1>
             </div>
             <div class="row text-black p-5">
                 <h1 class="fw-semibold">About</h1>
