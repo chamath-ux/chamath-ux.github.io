@@ -5,28 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
+    <style>
+        /* html {
+            scroll-behavior: smooth;
+        } */
+    </style>
 </head>
 <body>
-   <div class="container-fluid">
-        <div class="row min-vh-100 text-white" >
-           <div class="col-md-2 bg-dark">sdasda</div>
-           <div class="col-md-10 overflow-auto">
-            <div  style="background-image: url('/assets/images/wooden.jpg');" class="row h-100">
-                <h1>asdasdasd</h1>
-            </div>
-            <div class="row text-black p-5">
-                <h1 class="fw-semibold">About</h1>
-                <div class="col-md-4 h-100">
-                    <img src="/assets/images/wooden.jpg"  width="100%" height="100%"/>
-                </div>
-                <div class="col-md-8"></div>
-            </div>
-           </div>
-        </div>
+
+    <div class="container-fluid vh-100 d-flex flex-column overflow-hidden">
         <div class="row">
-            
+            <div class="col-md-2 bg-dark text-white">
+                asdasdsa
+            </div>
+            <div class="col-md-10 vh-100 d-flex flex-column overflow-hidden p-0">
+                <div class="flex-grow-1 overflow-auto p-0 overflow-x-hidden">
+                        <div style="background-image:url('/assets/images/wooden.jpg')" class="vh-100"></div>
+                        <div class="row pt-5 px-3 pb-3">
+                            <h1>About</h1>
+                            <p class="pt-2 pb-2">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                             <div class="col-md-4">
+                                <img src="/assets/images/pic.png" alt="" class="img-fluid" width="100%"/>
+                             </div>   
+                             <div class="col-md-8">asd
+                             </div> 
+                        </div>
+                        <div class="row pt-5 px-3 pb-5" style="background-color:#dcf2fa">
+                            
+                                <h1>Skills</h1>
+                                <p class="pt-2 pb-2">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                               <div class="row pb-5">
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row justify-content-between align-items-center fw-bold">
+                                            <p>HTML</p>
+                                            <p>100%</p>
+                                        </div>
+                                        <div class="min-w-100 bg-secondary " style="height:15px;">
+                                            <div class="bg-primary" style="width: 100%; height: 15px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row justify-content-between align-items-center fw-bold">
+                                            <p>CSS</p>
+                                            <p>70%</p>
+                                        </div>
+                                        <div class="min-w-100 bg-secondary " style="height:15px;">
+                                            <div class="bg-primary" style="width: 70%; height: 15px;"></div>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="row pb-5">
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row justify-content-between align-items-center fw-bold">
+                                            <p>PHP</p>
+                                            <p>95%</p>
+                                        </div>
+                                        <div class="min-w-100 bg-secondary " style="height:15px;">
+                                            <div class="bg-primary" style="width: 95%; height: 15px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row justify-content-between align-items-center fw-bold">
+                                            <p>Wordpress</p>
+                                            <p>50%</p>
+                                        </div>
+                                        <div class="min-w-100 bg-secondary " style="height:15px;">
+                                            <div class="bg-primary" style="width: 50%; height: 15px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-5">
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row justify-content-between align-items-center fw-bold">
+                                            <p>Javascript</p>
+                                            <p>80%</p>
+                                        </div>
+                                        <div class="min-w-100 bg-secondary " style="height:15px;">
+                                            <div class="bg-primary" style="width: 80%; height: 15px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <h1>Frameworks</h1>
+                                <div class="row pt-3">
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row justify-content-between align-items-center fw-bold">
+                                            <p>Laravel</p>
+                                            <p>70%</p>
+                                        </div>
+                                        <div class="min-w-100 bg-secondary " style="height:15px;">
+                                            <div class="bg-primary" style="width: 70%; height: 15px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row justify-content-between align-items-center fw-bold">
+                                            <p>Vue</p>
+                                            <p>90%</p>
+                                        </div>
+                                        <div class="min-w-100 bg-secondary " style="height:15px;">
+                                            <div class="bg-primary" style="width: 90%; height: 15px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                       </div>
+                       <div class="row pt-5 px-3">
+                            <h1>Contact</h1>
+                             <div class="fw-bold  border border-3 p-3">
+                                   <div class="d-flex flex-row ">
+                                        <div class="rounded-circle d-flex justify-content-center align-items-center" style="background-color:#d5eaf2;">
+                                            <i class="bi bi-geo-alt rounded-circle" ></i> 
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">Location</p>
+                                            <p>1234 Street Name, City, State, 12345</p>
+                                        </div>
+                                   </div> 
+                             </div>   
+                       </div>
+                </div>
+            </div>
         </div>
-   </div>
+        
+       
+    </div>
+   
+    
+
+      
 </body>
 </html>
+<script>
+</script>
